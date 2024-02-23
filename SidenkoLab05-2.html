@@ -1,0 +1,52 @@
+﻿<HTML>
+<HEAD>
+    <TITLE> Додавання зображення в HTML-код </TITLE>
+    <meta charset=UTF-8>
+
+    <STYLE>
+        /* Стилі для зменшення фото та збільшення тексту */
+        .resizable-img {
+            width: 10%; /* Задайте початковий розмір фото (можна вказати інший розмір за потребою) */
+            height: auto;
+        }
+
+        .resizable-text {
+            font-size: 16px; /* Задайте початковий розмір тексту (можна вказати інший розмір за потребою) */
+        }
+
+        /* Стилі для центрування тексту в таблиці */
+        table {
+            width: 30%;
+            margin: 0 auto; /* Центрування таблиці по горизонталі */
+        }
+
+        td {
+            text-align: center; /* Центрування тексту в комірках таблиці */
+        }
+    </STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+    <P ALIGN="CENTER">
+        <FONT COLOR="#000000" SIZE="7"><B>Розклад </B></FONT><BR>
+        <FONT SIZE="6" class="resizable-text"><I>занять</I></FONT>
+        <BR><BR>
+        <!-- Додано клас для фото, яке можна змінювати -->
+        <IMG SRC="clock.png" ALT="Годинник" class="resizable-img">
+    </P>
+
+    <!-- Гіперпосилання на попередній документ -->
+    <P ALIGN="CENTER">
+        <A HREF="SidenkoLab05-1.html">Посилання на попередній документ</A>
+    </P>
+
+    <!-- Таблиця з інформацією про групи -->
+    <TABLE BORDER="0">
+        <TR>
+            <TD>Група 1</TD>
+            <TD>Група 2</TD>
+            <TD>Група 3</TD>
+        </TR>
+
+    </TABLE>
+</BODY>
+</HTML>
